@@ -1,0 +1,55 @@
+/*** Catalog Shortcodes - media elements ***/
+
+/* Container for responsive media elements */
+
+.ts-responsive-media-yes {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.ts-responsive-media-yes iframe,
+.ts-responsive-media-yes object,
+.ts-responsive-media-yes embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*		YouTube
+---------------------------------------------------------------*/
+
+.ts-youtube { margin: 0 0 1.5em 0 }
+.ts-youtube iframe { border: none !important }
+
+/*		Vimeo
+---------------------------------------------------------------*/
+
+.ts-vimeo { margin: 0 0 1.5em 0 }
+.ts-vimeo iframe { border: none !important }
+
+/*		Screenr
+---------------------------------------------------------------*/
+
+.ts-screenr { margin: 0 0 1.5em 0 }
+.ts-screenr iframe { border: none !important }
+
+/*		Dailymotion
+---------------------------------------------------------------*/
+
+.ts-dailymotion { margin: 0 0 1.5em 0 }
+.ts-dailymotion iframe { border: none !important }
+
+/*		Document
+---------------------------------------------------------------*/
+
+.ts-document { margin: 0 0 1.5em 0 }
+.ts-document iframe { border: none !important }
+
+/*		Gmap
+---------------------------------------------------------------*/
+
+.ts-gmap { margin: 0 0 1.5em 0 }
+.ts-gmap iframe { border: none !important }

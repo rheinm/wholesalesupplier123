@@ -1,0 +1,17 @@
+{
+    "name": "mzullidar/telkomxsight",
+    "description": "This is a wordpress plugin for login using TelkomXSight OTP API",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Muhammad Zullidar",
+            "email": "zullidar91@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Xsight\\": "./src"}
+    }
+}

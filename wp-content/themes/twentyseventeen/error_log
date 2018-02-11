@@ -1,0 +1,2 @@
+[07-Feb-2018 19:20:51 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/wholbuyp/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-Feb-2018 16:49:27 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/wholbuyp/public_html/wp-content/themes/twentyseventeen/404.php on line 13

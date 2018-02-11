@@ -1,0 +1,98 @@
+/*** Catalog Shortcodes - RTL support - front ***/
+
+/*		Tabs + Tab
+---------------------------------------------------------------*/
+
+.ts-tabs-nav span {
+	margin-right: 0;
+	margin-left: 3px;
+}
+.ts-tabs-vertical .ts-tabs-nav {
+	float: right;
+}
+.ts-tabs-vertical .ts-tabs-panes {
+	float: right;
+}
+.ts-tabs-vertical .ts-tabs-nav span {
+	margin-left: 0;
+}
+@media only screen and (max-width: 768px) {
+	.ts-tabs-vertical .ts-tabs-nav,
+	.ts-tabs-vertical .ts-tabs-panes {
+		float: none;
+	}
+}
+
+/*		Spoiler + Accordion
+---------------------------------------------------------------*/
+
+.ts-spoiler-title {
+	padding: 7px 34px 7px 7px;
+}
+.ts-spoiler-icon {
+	right: 7px;
+}
+.ts-spoiler-style-default > .ts-spoiler-title {
+	padding-right: 27px;
+	padding-left: 0;
+}
+.ts-spoiler-style-default > .ts-spoiler-title > .ts-spoiler-icon { right: 0; }
+
+/*		Quote
+---------------------------------------------------------------*/
+
+.ts-quote .ts-quote-cite {
+	text-align: left;
+}
+
+/*		Row + Column
+---------------------------------------------------------------*/
+
+.ts-column {
+	margin: 0 0 0 4%;
+	float: right;
+}
+.ts-column-last { margin-left: 0; }
+.ts-row .ts-column { margin: 0 4% 0 0; }
+.ts-row .ts-column.ts-column-size-1-1 { margin-left: 0; margin-right: 0; }
+.ts-row .ts-column:first-child { margin-right: 0; }
+@media only screen {
+	[class*="ts-column"] + [class*="ts-column"]:last-child { float: left; }
+}
+
+/*		Service
+---------------------------------------------------------------*/
+
+.ts-service-title img,
+.ts-service-title i {
+	left: auto;
+	right: 0;
+}
+
+/*		Label
+---------------------------------------------------------------*/
+
+.ts-label {
+	margin-right: 0;
+	margin-left: 0.3em;
+}
+
+/*		Dropcap
+---------------------------------------------------------------*/
+
+.ts-dropcap {
+	float: right;
+	margin: 0.2em 0 0.2em 0.5em;
+}
+
+/*		List
+---------------------------------------------------------------*/
+
+.ts-list ul li {
+	padding: 4px 2em 4px 0 !important;
+}
+.ts-list ul li > img,
+.ts-list ul li i {
+	left: auto;
+	right: 0;
+}

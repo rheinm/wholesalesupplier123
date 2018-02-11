@@ -1,0 +1,87 @@
+#option-tree-options-layouts-form {
+	top: 64px!important;
+	display: none;
+}
+
+#option-tree-settings-api > .ui-tabs {
+	box-shadow: none!important;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li a {
+	padding: 8px 20px 8px 30px!important;
+}
+
+.wrap.settings-wrap .ui-tabs-nav {
+	width: 230px!important;
+	margin: 0!important;
+	padding: 0!important;
+}
+
+#option-tree-settings-api #poststuff {
+	border-left: 1px solid #dedede!important;
+	min-height: 400px;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li a:focus {
+	box-shadow: none!important;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li a {
+	color: #121212!important;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li a:hover,
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active a {
+	/*background: #0073aa;*/
+	color: #0073aa!important;
+	border-bottom: none!important;	
+}
+
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active a {
+	font-weight: bold;
+}
+
+.format-setting-label {
+	border: none!important;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li {
+	position: relative;
+}
+
+.option-tree-ui-buttons {
+	background: none!important;
+}
+
+#tab_general_options a{ background-image: url(../images/general.png); background-position: 5px 8px; background-repeat: no-repeat; }
+#tab_header_options a{  background-image: url(../images/icon-header.png);  background-position: 5px 8px;  background-repeat: no-repeat;}
+#tab_footer_options a{  background-image: url(../images/icon-footer.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+#tab_background_options a{  background-image: url(../images/background.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+#tab_blog_options a{ background-image: url(../images/blog.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+#tab_sidebar_option a{ background-image: url(../images/sidebar.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+#tab_styling_options a{ background-image: url(../images/styling.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+#tab_custom_css a{  background-image: url(../images/css.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+#tab_woocommerce_options a{  background-image: url(../images/shop.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+#tab_forums_options a{  background-image: url(../images/icon-portfolio.png); background-position: 5px 8px;  background-repeat: no-repeat; }
+
+#product_details_information .format-setting .description {
+	width: 100%;
+}
+
+#product_details_information .format-setting .format-setting-inner {
+	width: 100%;
+}
+
+#option-tree-header li {
+	float: none!important;
+}
+
+#option-tree-header {
+	text-align: center;
+	padding: 10px 0;
+}
+
+#option-tree-header #option-tree-version span,
+#option-tree-header #theme-version span {
+	float: none!important;
+}

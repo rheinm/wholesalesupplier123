@@ -1,0 +1,1 @@
+[06-Feb-2018 10:29:22 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/wholbuyp/public_html/wp-content/plugins/hello.php on line 60
